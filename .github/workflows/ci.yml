@@ -1,10 +1,10 @@
-name: Codacy Analysis
+name: Codacy Analysis CLI
 
 on: ["push"]
 
 jobs:
   codacy-analysis-cli:
-    name: Codacy Analysis
+    name: Codacy Analysis CLI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
