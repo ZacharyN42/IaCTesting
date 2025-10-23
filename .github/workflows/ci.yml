@@ -1,11 +1,11 @@
 name: CI with Codacy Quality Check
-
+# Trigger test
 # Trigger the workflow whenever code is pushed or a PR is made to main
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
